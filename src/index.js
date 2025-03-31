@@ -5,13 +5,13 @@
 \margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 # Meal Calendar App\
+\f0\fs24 \cf0 import React from 'react';\
+import ReactDOM from 'react-dom/client';\
+import App from './App';\
 \
-A kid-friendly weekly meal planner with password protection.\
-\
-## Features\
-- Password protected access\
-- Persistent session storage\
-- Weekly meal planning grid\
-- Add, view, and remove meals\
-- Kid-friendly colorful interface}
+const root = ReactDOM.createRoot(document.getElementById('root'));\
+root.render(\
+  <React.StrictMode>\
+    <App />\
+  </React.StrictMode>\
+);}

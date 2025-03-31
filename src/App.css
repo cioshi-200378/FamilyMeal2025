@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* App.css - Basic styles for Meal Calendar App */\
+\
+/* Reset some default browser styles */\
+* \{\
+  box-sizing: border-box;\
+  margin: 0;\
+  padding: 0;\
+\}\
+\
+body \{\
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,\
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\
+  -webkit-font-smoothing: antialiased;\
+  -moz-osx-font-smoothing: grayscale;\
+\}\
+\
+/* Custom scrollbar for a nicer look */\
+::-webkit-scrollbar \{\
+  width: 8px;\
+  height: 8px;\
+\}\
+\
+::-webkit-scrollbar-track \{\
+  background: #f1f1f1;\
+  border-radius: 10px;\
+\}\
+\
+::-webkit-scrollbar-thumb \{\
+  background: #c084fc;\
+  border-radius: 10px;\
+\}\
+\
+::-webkit-scrollbar-thumb:hover \{\
+  background: #a855f7;\
+\}\
+\
+/* For Firefox */\
+* \{\
+  scrollbar-width: thin;\
+  scrollbar-color: #c084fc #f1f1f1;\
+\}\
+\
+/* Animations for modals */\
+@keyframes fadeIn \{\
+  from \{ opacity: 0; \}\
+  to \{ opacity: 1; \}\
+\}\
+\
+.modal-animation \{\
+  animation: fadeIn 0.3s ease-out;\
+\}\
+\
+/* Responsive adjustments for small screens */\
+@media (max-width: 768px) \{\
+  .calendar-container \{\
+    overflow-x: auto;\
+  \}\
+\}}
